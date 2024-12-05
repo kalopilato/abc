@@ -1,3 +1,3 @@
 # ABC
 
-Just an empty repo for testing Buildkite repository search algorithm
+Just an empty repo for testing Buildkite in local development
