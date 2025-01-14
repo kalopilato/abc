@@ -1,0 +1,10 @@
+steps:
+  - command: "echo hello world"
+  - key: "block-step"
+    block: "Click here"
+    prompt: "Click 'Continue'."
+    blocked_state: "failed"
+    allow_dependency_failure: false
+notify:
+  - github_commit_status:
+      context: "abc/custom-context"
