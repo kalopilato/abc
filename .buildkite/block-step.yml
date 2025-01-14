@@ -1,0 +1,9 @@
+steps:
+  - command: "echo foo\n"
+  - key: "block-step"
+    block: "Click here"
+    prompt: "Click 'Continue'."
+    blocked_state: "failed"
+notify:
+  - github_commit_status:
+      context: "abc/custom-context"
