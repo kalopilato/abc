@@ -1,5 +1,5 @@
 steps:
-  - command: "echo foo"
+  - command: "echo foobar"
   - key: "block-step"
     block: "Click here"
     prompt: "Click 'Continue'."
