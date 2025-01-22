@@ -1,5 +1,5 @@
 steps:
-  - command: "echo hello world"
+  - command: "echo hello worlds"
   - key: "block-step"
     block: "Click here"
     prompt: "Click 'Continue'."
