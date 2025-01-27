@@ -5,6 +5,6 @@ steps:
     prompt: "Click 'Continue'."
     blocked_state: "failed"
     allow_dependency_failure: false
-notify:
-  - github_commit_status:
-      context: "abc/custom-context"
+# notify:
+#   - github_commit_status:
+#       context: "abc/custom-context"
